@@ -6,6 +6,14 @@ gitea-theme-meta-info {
   --theme-color-scheme: "light";
 }
 
+.home a {
+  color: var(--color-primary);
+}
+
+.home .hero .svg {
+  color: var(--color-primary);
+}
+
 :root {
   --is-dark-theme: false;
   --color-primary: #39b5fb;
