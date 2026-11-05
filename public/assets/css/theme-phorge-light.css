@@ -14,33 +14,34 @@ gitea-theme-meta-info {
   color: var(--color-primary);
 }
 
+/* Primary color and contrast: phorge-fr/.github docs/reference/brand-guide.md. The shades follow the Gitea scale of the base color. */
 :root {
   --is-dark-theme: false;
-  --color-primary: #39b5fb;
+  --color-primary: #0475b5;
   --color-primary-contrast: #ffffff;
-  --color-primary-dark-1: #3876b3;
-  --color-primary-dark-2: #31699f;
-  --color-primary-dark-3: #2b5c8b;
-  --color-primary-dark-4: #254f77;
-  --color-primary-dark-5: #193450;
-  --color-primary-dark-6: #0c1a28;
-  --color-primary-dark-7: #04080c;
-  --color-primary-light-1: #548fca;
-  --color-primary-light-2: #679cd0;
-  --color-primary-light-3: #7aa8d6;
-  --color-primary-light-4: #8db5dc;
-  --color-primary-light-5: #b3cde7;
-  --color-primary-light-6: #d9e6f3;
-  --color-primary-light-7: #f4f8fb;
-  --color-primary-alpha-10: #4183c419;
-  --color-primary-alpha-20: #4183c433;
-  --color-primary-alpha-30: #4183c44b;
-  --color-primary-alpha-40: #4183c466;
-  --color-primary-alpha-50: #4183c480;
-  --color-primary-alpha-60: #4183c499;
-  --color-primary-alpha-70: #4183c4b3;
-  --color-primary-alpha-80: #4183c4cc;
-  --color-primary-alpha-90: #4183c4e1;
+  --color-primary-dark-1: #0469a3;
+  --color-primary-dark-2: #035d91;
+  --color-primary-dark-3: #03527e;
+  --color-primary-dark-4: #02466c;
+  --color-primary-dark-5: #022f49;
+  --color-primary-dark-6: #001724;
+  --color-primary-dark-7: #01070b;
+  --color-primary-light-1: #058ad5;
+  --color-primary-light-2: #059ef5;
+  --color-primary-light-3: #20acfb;
+  --color-primary-light-4: #40b8fc;
+  --color-primary-light-5: #80cffb;
+  --color-primary-light-6: #c0e7fd;
+  --color-primary-light-7: #edf8fe;
+  --color-primary-alpha-10: #0475b519;
+  --color-primary-alpha-20: #0475b533;
+  --color-primary-alpha-30: #0475b54b;
+  --color-primary-alpha-40: #0475b566;
+  --color-primary-alpha-50: #0475b580;
+  --color-primary-alpha-60: #0475b599;
+  --color-primary-alpha-70: #0475b5b3;
+  --color-primary-alpha-80: #0475b5cc;
+  --color-primary-alpha-90: #0475b5e1;
   --color-primary-hover: var(--color-primary-dark-1);
   --color-primary-active: var(--color-primary-dark-2);
   --color-secondary: #d0d7de;
